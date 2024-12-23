@@ -88,7 +88,7 @@ To get started with this setup, follow these steps:
 
     ```bash
     # reboot your system
-    home-manager switch
+    nh home switch
     ```
 
 9. **Flatpak configuration**

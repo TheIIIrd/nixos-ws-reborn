@@ -22,7 +22,7 @@
     nvidiaSettings = true;
 
     # Specify the NVIDIA driver package version; use as needed for your GPU
-    package = config.boot.kernelPackages.nvidiaPackages.production;  # Adjust based on actual needs
+    package = config.boot.kernelPackages.nvidiaPackages.beta;
 
     prime = {
       # Enable offloading to NVIDIA GPU

@@ -1,10 +1,35 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
-    gcc
+    # Desktop apps
+    clapper
+    dconf-editor
+    easyeffects
+    gparted
+    gnome-tweaks
+    inkscape
     kdenlive
-    # jetbrains.pycharm-professional
-    # jre8
-    # qemu
-    # quickemu
+    krita
+    mission-center
+
+    # CLI utils
+    aria2
+    bind
+    curl
+    htop
+    ipset
+    lshw
+    nmap
+    radare2
+    wget
+
+    # Coding stuff
+    android-tools
+    cargo
+    clang
+    clang-tools
+    gcc
+    gnumake
+    rustc
+    zulu
   ];
 }

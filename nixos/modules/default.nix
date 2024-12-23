@@ -24,7 +24,7 @@
     ./user.nix
     ./virt-manager.nix
     # ./yggdrasil.nix
-    # ./zapret.nix
+    ./zapret.nix
     ./zerotierone.nix
     ./zram.nix
   ];

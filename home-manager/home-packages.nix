@@ -28,7 +28,6 @@
     git-graph
     lazygit
     mediainfo
-    neovim
     ranger
     ripgrep
     silicon

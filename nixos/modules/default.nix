@@ -21,6 +21,7 @@
     ./timezone.nix
     # ./tlp.nix
     ./trim.nix
+    ./unfree.nix
     ./user.nix
     ./virt-manager.nix
     # ./yggdrasil.nix

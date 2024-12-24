@@ -31,7 +31,7 @@
       system = system;
       specialArgs = {
         inherit inputs stateVersion hostname user;
-        pkgs-unstable = nixpkgs-unstable.legacyPackages.${system}; # Передаем pkgs-unstable здесь
+        pkgs-unstable = nixpkgs-unstable.legacyPackages.${system};
       };
 
       modules = [
